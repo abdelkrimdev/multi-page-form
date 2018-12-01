@@ -31,6 +31,9 @@
     "lint:fix": "standard --fix"
   },
   "standard": {
+    "envs": [
+      "jest"
+    ],
     "parser": "babel-eslint"
   },
   "jest": {

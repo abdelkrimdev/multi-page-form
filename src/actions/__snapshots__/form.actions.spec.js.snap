@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`form actions should create next step action. 1`] = `
+Array [
+  Object {
+    "type": "GOTO_NEXT_STEP",
+  },
+]
+`;
+
+exports[`form actions should create previous step action. 1`] = `
+Array [
+  Object {
+    "type": "GOTO_PREVIOUS_STEP",
+  },
+]
+`;
+
+exports[`form actions should create start registration action. 1`] = `
+Array [
+  Object {
+    "type": "INITIALIZE_FORM_REGISTRATION",
+  },
+]
+`;
+
+exports[`form actions should create update form action. 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "key": "name",
+      "value": "Bruce",
+    },
+    "type": "UPDATE_FORM_DATA",
+  },
+]
+`;

@@ -13,8 +13,8 @@ ReactDOM.render(
   <Provider store={Store}>
     <BrowserRouter>
       <Switch>
-        <Route path='/register' component={RegistrationForm} />
-        <Redirect to='/register' />
+        <Route path='/registration' component={RegistrationForm} />
+        <Redirect to='/registration' />
       </Switch>
     </BrowserRouter>
   </Provider>,

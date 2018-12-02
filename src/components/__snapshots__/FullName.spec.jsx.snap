@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`full name component should render correctly. 1`] = `
+<Input
+  disabled={false}
+  name="fullName"
+  placeholder="Peter Parker"
+  prefix={
+    <Icon
+      style={
+        Object {
+          "color": "rgba(0,0,0,.25)",
+        }
+      }
+      type="user"
+    />
+  }
+  prefixCls="ant-input"
+  size="large"
+  type="text"
+/>
+`;

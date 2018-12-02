@@ -16,14 +16,6 @@ Array [
 ]
 `;
 
-exports[`form actions should create start registration action. 1`] = `
-Array [
-  Object {
-    "type": "INITIALIZE_FORM_REGISTRATION",
-  },
-]
-`;
-
 exports[`form actions should create update form action. 1`] = `
 Array [
   Object {

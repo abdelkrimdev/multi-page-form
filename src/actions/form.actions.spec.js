@@ -5,14 +5,6 @@ import { formActions } from './form.actions'
 const mockStore = configureStore()
 
 describe('form actions', () => {
-  it('should create start registration action.', () => {
-    const store = mockStore()
-
-    store.dispatch(formActions.startRegitration())
-
-    expect(store.getActions()).toMatchSnapshot()
-  })
-
   it('should create next step action.', () => {
     const store = mockStore()
 

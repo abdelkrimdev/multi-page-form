@@ -12,7 +12,7 @@ describe('form actions', () => {
 
     expect(store.getActions()).toMatchSnapshot()
   })
-  
+
   it('should create next step action.', () => {
     const store = mockStore()
 
@@ -32,8 +32,8 @@ describe('form actions', () => {
   it('should create update form action.', () => {
     const store = mockStore()
     const input = {
-        key: 'name',
-        value: 'Bruce'
+      key: 'name',
+      value: 'Bruce'
     }
 
     store.dispatch(formActions.updateForm(input))

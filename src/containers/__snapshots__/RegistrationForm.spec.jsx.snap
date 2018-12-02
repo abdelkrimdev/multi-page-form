@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`registration form should render correctly. 1`] = `
+<Fragment>
+  <Steps
+    current={0}
+    iconPrefix="ant"
+    prefixCls="ant-steps"
+  >
+    <Step
+      key="1"
+      title="Full Name"
+    />
+    <Step
+      key="2"
+      title="Email Address"
+    />
+    <Step
+      key="3"
+      title="Phone Number"
+    />
+    <Step
+      key="4"
+      title="Salary Indication"
+    />
+  </Steps>
+  <div
+    className="steps-content"
+  >
+    <FullName
+      onChange={[Function]}
+    />
+  </div>
+  <div
+    className="steps-action"
+  >
+    <Button
+      block={false}
+      ghost={false}
+      loading={false}
+      onClick={[Function]}
+      prefixCls="ant-btn"
+      type="primary"
+    >
+      Next
+    </Button>
+  </div>
+</Fragment>
+`;

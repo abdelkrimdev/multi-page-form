@@ -8,7 +8,11 @@ Object {
 }
 `;
 
-exports[`form reducer should have initial state. 1`] = `Object {}`;
+exports[`form reducer should have initial state. 1`] = `
+Object {
+  "step": 0,
+}
+`;
 
 exports[`form reducer should return the current state after receiving a dummy action. 1`] = `
 Object {

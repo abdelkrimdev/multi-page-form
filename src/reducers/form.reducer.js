@@ -1,6 +1,6 @@
 import { formConstants } from '../constants/form.constants'
 
-export const form = (state = { }, action) => {
+export const form = (state = { step: 0 }, action) => {
   switch (action.type) {
     case formConstants.START_REGISTRATION:
       return {

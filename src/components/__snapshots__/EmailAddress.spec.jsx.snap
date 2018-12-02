@@ -17,6 +17,6 @@ exports[`email address component should render correctly. 1`] = `
   }
   prefixCls="ant-input"
   size="large"
-  type="text"
+  type="email"
 />
 `;

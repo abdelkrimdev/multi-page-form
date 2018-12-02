@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`summary page should render correctly. 1`] = `
+<Fragment>
+  <div
+    className="not-registered"
+  >
+    Please click 
+    <Link
+      replace={false}
+      to="/registration"
+    >
+      here
+    </Link>
+     to register yourself.
+  </div>
+</Fragment>
+`;

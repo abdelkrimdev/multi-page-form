@@ -19,7 +19,7 @@ describe('salary indication component', () => {
   it('should set the onChange property.', () => {
     const handleChange = jest.fn()
     const wrapper = shallow(<SalaryIndication onChange={handleChange} />)
-    
+
     wrapper.prop('onChange')()
 
     expect(handleChange).toBeCalled()

@@ -6,7 +6,7 @@ const SalaryIndication = ({ onChange }) => {
   const radioStyle = {
     display: 'block',
     height: '30px',
-    lineHeight: '30px',
+    lineHeight: '30px'
   }
 
   return (
@@ -21,7 +21,7 @@ const SalaryIndication = ({ onChange }) => {
 }
 
 SalaryIndication.propTypes = {
-
+  onChange: PropTypes.func
 }
 
 export default SalaryIndication

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`email address component should render correctly. 1`] = `
+<Input
+  disabled={false}
+  name="emailAddress"
+  placeholder="peter.parker@marvel.co"
+  prefix={
+    <Icon
+      style={
+        Object {
+          "color": "rgba(0,0,0,.25)",
+        }
+      }
+      type="mail"
+    />
+  }
+  prefixCls="ant-input"
+  size="large"
+  type="text"
+/>
+`;

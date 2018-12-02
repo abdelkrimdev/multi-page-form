@@ -2,10 +2,6 @@ import { formConstants } from '../constants/form.constants'
 
 export const form = (state = { step: 0 }, action) => {
   switch (action.type) {
-    case formConstants.START_REGISTRATION:
-      return {
-        step: 1
-      }
     case formConstants.NEXT_STEP:
       return {
         ...state,

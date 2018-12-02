@@ -15,12 +15,6 @@ describe('form reducer', () => {
     expect(form(state, action)).toMatchSnapshot()
   })
 
-  it('should handle start registration action.', () => {
-    const action = { type: formConstants.START_REGISTRATION }
-
-    expect(form({ }, action).step).toEqual(1)
-  })
-
   it('should handle next step action.', () => {
     const state = { step: 1 }
     const action = {

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`phone number component should render correctly. 1`] = `
+<Input
+  disabled={false}
+  name="phoneNumber"
+  placeholder="001-541-754-3010"
+  prefix={
+    <Icon
+      style={
+        Object {
+          "color": "rgba(0,0,0,.25)",
+        }
+      }
+      type="phone"
+    />
+  }
+  prefixCls="ant-input"
+  size="large"
+  type="text"
+/>
+`;

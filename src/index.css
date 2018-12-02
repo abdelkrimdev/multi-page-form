@@ -7,3 +7,51 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+#root {
+  position: fixed;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #ebedf0;
+  padding: 42px 24px 30px;
+  color: rgba(0,0,0,.65);
+  border-radius: 8px;
+}
+
+.steps-content {
+  margin-top: 16px;
+  border-radius: 6px;
+  min-height: 200px;
+  padding: 30px 80px 0px
+}
+
+.steps-action {
+  margin-top: 16px;
+}
+
+.not-registered {
+  padding: 30px;
+  font-size: 30px;
+}
+
+.summary-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.summary-content {
+  min-width: 400px;
+  min-height: 140px;
+}
+
+.key-item {
+  font-size: 20px;
+}
+
+.value-item {
+  font-size: 18px;
+  color: gray;
+}
